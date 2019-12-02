@@ -12,7 +12,7 @@ This application requires that your register for an OpenWeater API ID. you must 
 
 **Hookup**
 
-Quite simply, you connect up the relay in-line on the positive wire going to your heating controller. In many systems, turning on the a specific controller channel just means shorting the two terminals for that channel, so you would run from one terminal to the relay, connect the other terminal to the normally open terminal on your relay and that should be it. See the "Sidewalk WX Controller - Wiring Diagram.png" for more details. 
+Quite simply, you connect up the relay in-line on the positive wire going to your heating controller. In many systems, turning on the a specific controller channel just means shorting the two terminals for that channel, so you would run from one terminal to the relay, connect the other terminal to the normally open terminal on your relay and that should be it. See the [WiSH-Controller - Wiring Diagram](https://github.com/that-JC-guy/WiSH-Controller/blob/master/WiSH-Controller%20-%20Wiring%20Diagram.png) for more details. 
 
 **General Application Information**
 
