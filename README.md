@@ -1,5 +1,5 @@
 # Raspberry Pi-based, temperature-driven control system for heated sidewalks/driveways
-This application uses data from the OpenWeather API to drive the state of driveway, sidewalk, and other heating systems based on current and predicted outdoor temperatures. It can be easily modified to utilize a locally-connected temperature sensor in place of the current weather as reported by OpenWeather. This is not a replacement for a heating system controller. It is desgined to run alongside your heating system's controller and enable automation to reduce costs and lessen the associated risks of manually-triggered systems. 
+WiSH-Controller uses data from the OpenWeather API to drive the state of driveway, sidewalk, and other heating systems based on current and predicted outdoor temperatures. It can be easily modified to utilize a locally-connected temperature sensor in place of the current weather as reported by OpenWeather. This is not a replacement for a heating system controller. It is desgined to run alongside your heating system's controller and enable automation to reduce costs and lessen the associated risks of manually-triggered systems. 
 
 This application requires that your register for an OpenWeater API ID. you must register for your own API key at https://home.openweathermap.org/users/sign_up. 
 
@@ -17,6 +17,8 @@ Quite simply, you connect up the relay in-line on the positive wire going to you
 **General Application Information**
 
 The application can make up to two distinct calls for temperature information. The first is a call for the current weather conditions based upon the longitude and latitude which is user-specified and is referred to as "instant data." The second call, if needed, is for the forecasted weather predictions of that same location, which is call "predictive data." You specify a temperature at which the system is triggered, the temperature units (Celsius or Fahrenheit,) the heating/rest cycle you prefer, and the evaluation cycle. The recommended evaluation cycle is one hour or greater to ensure that you do not exceed the maximum number of API requests for a free account. 
+
+Launch WiSH-Controller by executing the following: `python3 WiSH-Controller.py`
 
 **Instant Data Cycle**
 
