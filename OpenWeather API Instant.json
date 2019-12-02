@@ -1,0 +1,44 @@
+{
+	"coord": {
+		"lon": -72.16,
+		"lat": 43.34
+	},
+	"weather": [{
+		"id": 500,
+		"main": "Rain",
+		"description": "light rain",
+		"icon": "10d"
+	}],
+	"base": "stations",
+	"main": {
+		"temp": 275.78,
+		"pressure": 1005,
+		"humidity": 85,
+		"temp_min": 273.15,
+		"temp_max": 278.15
+	},
+	"visibility": 16093,
+	"wind": {
+		"speed": 6.7,
+		"deg": 270,
+		"gust": 11.8
+	},
+	"rain": {
+		"1h": 0.25
+	},
+	"clouds": {
+		"all": 90
+	},
+	"dt": 1574955096,
+	"sys": {
+		"type": 1,
+		"id": 2743,
+		"country": "US",
+		"sunrise": 1574942267,
+		"sunset": 1574975741
+	},
+	"timezone": -18000,
+	"id": 5090256,
+	"name": "Newport",
+	"cod": 200
+}
