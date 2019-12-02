@@ -5,8 +5,12 @@ This application requires that your register for an OpenWeater API ID. you must 
 
 **Requirements**
 - Operating platform which has Internet access, can run Python v3, and provides GPIO accessibility (e.g. Raspberry Pi, and many others.)
+- Single-channel relay
 - OpenWeather API Key
 - Knowledge of handling low-voltage electrical circuits.
+
+**Hookup**
+Quite simply, you connect up the relay in-line on the positive wire going to your heating controller. In many systems, turning on the a specific controller channel just means shorting the two terminals for that channel, so you would run from one terminal to the relay, connect the other terminal to the normally open terminal on your relay and that should be it. See the "Sidewalk WX Controller - Wiring Diagram.png" for more details. 
 
 **General Application Information**
 The application can make up to two distinct calls for temperature information. The first is a call for the current weather conditions based upon the longitude and latitude which is user-specified and is referred to as "instant data." The second call, if needed, is for the forecasted weather predictions of that same location, which is call "predictive data." You specify a temperature at which the system is triggered, the temperature units (Celsius or Fahrenheit,) the heating/rest cycle you prefer, and the evaluation cycle. The recommended evaluation cycle is one hour or greater to ensure that you do not exceed the maximum number of API requests for a free account. 
