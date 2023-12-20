@@ -41,7 +41,7 @@ As the application executes, it will simultaneously log to the console and to sy
 
 **Testing**
 
-By setting the testFlag to true, you can fine tune your implementation without incurring hits aaginst the OpenWeather API. Enabling this mode does two things:
+By setting the testFlag to true, you can fine tune your implementation without incurring hits against the OpenWeather API. Enabling this mode does two things:
   1. It utilizes the OpenWeather API Instant.json and OpenWeather API Forecast.json files to supply tmperature information locally. 
   2. It changes the timing of all settings from hours to seconds, enabling you to test more quickly.
   
